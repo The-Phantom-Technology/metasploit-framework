@@ -3,7 +3,8 @@ rm -rf /opt/PHANTX/metasploit-framework
 
 cd /opt/PHANTX
 
-git clone https://github.com/rapid7/metasploit-framework
+git clone --depth 1 https://github.com/rapid7/metasploit-framework.git
+
 
 cd /opt/PHANTX/metasploit-framework
 
